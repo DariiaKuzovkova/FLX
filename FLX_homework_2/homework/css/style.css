@@ -5,28 +5,35 @@ section#ideas,
 section.tm-content-box,
 .tm-main-nav,
 #about {
-  display: none;
+	display: none;
+}
+#home, .flex-2-col {
+	margin: -30px 60px;
 }
 .flex-2-col {
 	display: flex;
+	text-indent: 1.5em;
+	line-height: 2em;
 }
 .flex-item img {
-	width: 200px;
-	height: 200px;
-	margin-top: 80px;
-	margin-right: 80px;
+	width: 170px;
+	height: 170px;
+	margin: 130px 130px 100px -20px;
 }
-h2.tm-section-title{
+h2.tm-section-title {
 	color: blue;
 }
 p:first-letter {
 	color: lightskyblue;
 	font-size: 30px;
 }
+h2+p {
+	font-style: italic;
+}
 }
 
 @media screen {
-.tm-banner{
+.tm-banner {
 	background-color: #f5f5f5;
 }
 .tm-banner-inner{
@@ -42,7 +49,7 @@ p:first-letter {
 section,
 .tm-sidebar,
 .tm-content-header {
-	box-shadow: 0 0 3px; 	
+	box-shadow: 0 0 5px rgba(0,0,0,0.6); 	
 }
 .tm-team-description-container {
 	padding-top: 150px;
@@ -62,31 +69,35 @@ h2+p {
 	font-style: italic;
 }
 h2.tm-section-title-box:hover {
-    background-color: lightskyblue;
-    color: #fff;
+	background-color: lightskyblue;
+	color: #fff;
 }
 .tm-section-description {
 	text-indent: 1.5em;
 	line-height: 2em;
 }
-.padding-medium a:hover {
+.heading ol a {
+	color: black;
+}
+.heading li a:hover {
 	color: lightblue;
 	text-decoration-style: double;
-} 
-.padding-medium a:visited {
-	text-decoration-style: solid;
 }
-.text:after{
+.heading li a:visited {
+	text-decoration-style: solid;
+} 
+.text:after {
+	display: inline-block;
 	content: "New";
 	color: red;
 	vertical-align: super;
 	font-size: 10px;
 }
-.box-work p{
+.box-work p {
 	color: grey;
 	font-style: italic;
 }
-.box-work p:first-letter{
+.box-work p:first-letter {
 	color: grey;
 	font-size: 30px;
 }
@@ -101,7 +112,7 @@ h2.tm-section-title-box:hover {
 	content: "*";
 	color: red;
 }
-.btn{
+.btn {
 	color: lightblue;
 	background-color: #ffffff;
 	border-color: lightblue;
@@ -111,11 +122,11 @@ h2.tm-section-title-box:hover {
 	width: 150px;
 }
 .btn:hover {
-	background-color: lightblue;
+	background-color: lightskyblue;
 	border-color: lightblue;
 	color: #ffffff;
 }
-.tm-nav-item:hover{
+.tm-nav-item:hover {
 	background-color: #f5f5f5;
 }
 }
