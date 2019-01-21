@@ -59,7 +59,7 @@ section:before {
 	letter-spacing: 5px;
 }
 h2+p {
-font-style: italic;
+	font-style: italic;
 }
 h2.tm-section-title-box:hover {
     background-color: lightskyblue;
@@ -69,13 +69,13 @@ h2.tm-section-title-box:hover {
 	text-indent: 1.5em;
 	line-height: 2em;
 }
-.padding-medium a:visited {
-	border-bottom: underline;
-} 
 .padding-medium a:hover {
 	color: lightblue;
 	text-decoration-style: double;
 } 
+.padding-medium a:visited {
+	text-decoration-style: solid;
+}
 .text:after{
 	content: "New";
 	color: red;
