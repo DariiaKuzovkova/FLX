@@ -162,7 +162,7 @@ main .triangle p {
 	height: 260px;
 	
 }
-section .article-items {
+.article-items {
 	background: #FFFFFF;
 	display: flex;
 	justify-content: space-around;
