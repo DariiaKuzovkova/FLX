@@ -2,7 +2,7 @@ var money = prompt("Please enter amount of money", ""),
  discount = prompt("Please enter your discount", "");
 
 if ( isNaN(money) || isNaN(discount) || 
-	money<0 || money>9999999 || discount<0 || 
+	money<=0 || money>9999999 || discount<0 || 
 	discount>99 || money === "" || discount === "") {
  alert("Invalid input data");
 } else {
