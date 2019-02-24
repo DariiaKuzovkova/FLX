@@ -1,6 +1,5 @@
 let counter = 0;
 const MAX = 10;
-let el;
 
 function itemCreator() {
 	const add_box = document.querySelector('.btn-add_box');
