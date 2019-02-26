@@ -1,0 +1,32 @@
+#root {
+	text-align: center;
+	font-size: 24px;
+	width: 40%;
+	margin: auto;
+}
+.button {
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 5px 20px;
+}
+#add_btn {
+	margin-bottom: 10px;
+}
+#input_field, #edit_input {
+	margin: 20px;
+	width: 200px;
+}
+.add_new_item, .modify_item {
+	display: none;
+}
+.items-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 45px;
+	margin: 5px;
+}
+.btn_check, .btn_delete {
+	border: none;
+	background-color: inherit;
+}
