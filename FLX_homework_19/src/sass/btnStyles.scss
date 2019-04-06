@@ -1,0 +1,31 @@
+.rock, .paper, .scissors, .reset {
+    background: rgb(204, 14, 0);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-bottom: 10px;
+    opacity: 0.7;
+    &:hover {
+        opacity: 1;
+        transition: 0.3s;
+    }
+    &:active {
+        position: relative;
+        top: 5px;
+    }
+}
+.reset {
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 80px;
+}
+.deadHeat {
+    color: rgb(71, 71, 71);
+}
+.lost {
+    color: rgb(204, 14, 0);
+}
+.won {
+    color: rgb(49, 155, 0);
+}
