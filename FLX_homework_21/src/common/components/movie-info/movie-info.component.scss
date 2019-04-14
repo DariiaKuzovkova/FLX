@@ -1,0 +1,42 @@
+.movie-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    width: 80%;
+    margin-top: 30px;
+
+    img {
+      max-height: 400px;
+    }
+
+    h2 {
+      color: rgb(175, 0, 0);
+    }
+
+    p {
+      margin: 5px 0;
+    }
+
+    a {
+      display: block;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 1px solid rgb(175, 0, 0);
+      color: rgb(175, 0, 0);
+    }
+
+    .wrapper {
+      margin-left: 10px;
+    }
+
+    .btnBack {
+      width: 80px;
+
+      &:hover {
+        background-color: rgb(175, 0, 0);
+        color: white;
+      }
+    }
+  }

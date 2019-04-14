@@ -1,0 +1,47 @@
+.movies {
+    padding: 40px 70px;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__overview {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 40%;
+      flex-shrink: 1;
+      flex-grow: 1;
+      margin-bottom: 40px;
+      margin-left: 10px;
+      padding: 20px;
+
+      &:hover {
+        border-radius: 5px;
+        background-color: rgb(175, 0, 0);
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        .dispOver {
+          display: block;
+        }
+        .dispImg {
+          display: none;
+        }
+      }
+
+      div {
+        display: flex;
+      }
+
+      img {
+        width: auto;
+        height: 300px;
+        margin: 0 10px;
+      }
+    }
+  }
+.field_filter {
+  margin-top: 20px;
+  width: 80%;
+  border-radius: 5px;
+}
+.dispOver {
+  display: none;
+}
